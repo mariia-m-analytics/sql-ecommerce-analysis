@@ -21,9 +21,9 @@ A SQL query was created to prepare and analyze the e-commerce dataset.
 
 The query combines the required data, calculates relevant metrics, and creates a dataset for further analysis and visualization.
 
-SQL query:
+### SQL Query
 
-[`ecommerce_analysis.sql`](sql/ecommerce_analysis.sql)
+[`ecommerce_analysis.sql`](ecommerce_analysis.sql)
 
 ## Data Visualization
 
@@ -56,8 +56,6 @@ The analysis provides insights into:
 sql-ecommerce-analysis/
 │
 ├── README.md
-├── sql/
-│   └── ecommerce_analysis.sql
-│
+├── ecommerce_analysis.sql
 └── screenshots/
     └── looker_studio_dashboard.png
