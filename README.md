@@ -23,7 +23,7 @@ The query combines the required data, calculates relevant metrics, and creates a
 
 ### SQL Query
 
-[`ecommerce_analysis.sql`](ecommerce_analysis.sql)
+[`ecommerce_analysis.sql`](sql/ecommerce_analysis.sql)
 
 ## Data Visualization
 
@@ -39,7 +39,11 @@ The results of the analysis were visualized in three interactive Tableau dashboa
 
 A dashboard was also created in Looker Studio as part of the original educational project.
 
-The original BigQuery dataset was provided through the educational environment and is no longer accessible. Therefore, the completed Looker Studio dashboard is included in the repository as a screenshot for reference.
+The original BigQuery dataset was provided through the educational environment and is no longer accessible. Therefore, screenshots of the completed Looker Studio dashboard are included in the repository for reference.
+
+![Looker Studio Dashboard](looker_studio_dashboard.png)
+
+![Looker Studio Dashboard Details](looker_studio_dashboard_details.png)
 
 ## Key Insights
 
@@ -56,6 +60,7 @@ The analysis provides insights into:
 sql-ecommerce-analysis/
 │
 ├── README.md
-├── ecommerce_analysis.sql
-└── screenshots/
-    └── looker_studio_dashboard.png
+├── sql/
+│   └── ecommerce_analysis.sql
+├── looker_studio_dashboard.png
+└── looker_studio_dashboard_details.png
